@@ -9,25 +9,21 @@ import java.util.Scanner;
 public class GestionDuExercice {
 
     public static void main(String[] args) {
-        Scanner no1 = new Scanner(System.in);
-        Scanner no2 = new Scanner(System.in);
-        Scanner no3 = new Scanner(System.in);
-        System.out.println("entre un numero : ");
-        double a = no1.nextDouble();
-        System.out.println("entre a 2eme numero : ");
-        double b = no2.nextDouble();
-        System.out.println("entre a 3 eme numero : ");
-        double c = no3.nextDouble();
-
-        if (a < b
-                && b > c) {
-            System.out.println("les max c'est : " + b);
-        } else if (a > b && b > c) {
-            System.out.println("les max c'est : " + a);
-        } else {
-            System.out.println("les max c'est : " + c);
-        }
-
+        System.out.println(9.99 == 10.0);
+        System.out.println(9.99999999999 == 10.0);
+        System.out.println(9.99999999999 == 10.000000001);
+        System.out.println(true);
+        System.out.println(false);
+        System.out.println(!true);
+        System.out.println(!false);
+        System.out.println(true && true);
+        System.out.println(true && false );
+        System.out.println(false && true );
+        System.out.println(false && false);
+        System.out.println(true || true );
+        System.out.println(true || false );
+        System.out.println(false || true );
+        System.out.println(false || false);
     }
 
 }

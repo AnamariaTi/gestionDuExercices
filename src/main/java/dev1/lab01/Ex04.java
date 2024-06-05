@@ -2,7 +2,7 @@
 package dev1.lab01;
 
 /**
- *excercice teste en main
+ *exercises tested in main 
  * @author Tirdea Ana-Maria
  */
 public class Ex04 {
