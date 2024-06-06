@@ -1,13 +1,14 @@
-
 package dev1.lab04;
 
 import java.util.Scanner;
 
 /**
- * *exercises tested in main 
+ * *exercises tested in main
+ *
  * @author Tirdea Ana-Maria
  */
 public class Ex05 {
+
     public static void main(String[] args) {
 
         //asks the user for n values and displays the sum of these and the average of these values.

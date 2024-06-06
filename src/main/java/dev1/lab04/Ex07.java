@@ -1,13 +1,14 @@
-
 package dev1.lab04;
 
 import java.util.Scanner;
 
 /**
  * *exercises tested in main
+ *
  * @author Tirdea Ana-Maria
  */
 public class Ex07 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -33,6 +34,6 @@ public class Ex07 {
         } else {
             System.out.println("Aucun nombre valide n'a été saisi.");
         }
-    
+
     }
 }

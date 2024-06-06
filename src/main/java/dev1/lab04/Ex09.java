@@ -1,20 +1,19 @@
-
 package dev1.lab04;
 
 import java.util.Scanner;
 
 /**
- * *exercises tested in main 
+ * *exercises tested in main
+ *
  * @author Tirdea Ana-Mariat
  */
 public class Ex09 {
-    
+
     /*
     asks the user for the number n of values to be entered to enter,
     reads these n values from the keyboard and displays the maximum and minimum values.
     Note that values may be negative.
-    */
-
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -50,8 +49,4 @@ public class Ex09 {
         scanner.close();
     }
 
-
-    
-    
-    
 }
