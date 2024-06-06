@@ -1,13 +1,13 @@
-package com.mycompany.gestionduexercice;
+
+package dev1.lab04;
 
 import java.util.Scanner;
 
 /**
- *
+ * *exercises tested in main 
  * @author Tirdea Ana-Maria
  */
-public class GestionDuExercice {
-
+public class Ex03 {
     public static void main(String[] args) {
      
         
@@ -29,16 +29,5 @@ public class GestionDuExercice {
         
         
     }
+    
 }
-
-    
-    
-    
-    
-    
-        
-      
-        
-    
-
-

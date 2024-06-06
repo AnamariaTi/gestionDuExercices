@@ -16,7 +16,7 @@ public class Ex06 {
         double a = no1.nextDouble();
         System.out.println("entre a 2eme numero : ");
         double b = no2.nextDouble();
-        System.out.println("entre a 3 eme numero : ");
+        System.out.println("entre a 3eme numero : ");
         double c = no3.nextDouble();
 
         if (a < b
