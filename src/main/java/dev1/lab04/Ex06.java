@@ -3,8 +3,7 @@ package dev1.lab04;
 import java.util.Scanner;
 
 /**
- * *exercises tested in main
- *
+ * exercises tested in main
  * @author Tirdea Ana-Maria
  */
 public class Ex06 {
