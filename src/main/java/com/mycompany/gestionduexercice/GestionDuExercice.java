@@ -9,5 +9,8 @@ import java.util.Scanner;
 public class GestionDuExercice {
 
     public static void main(String[] args) {
+        
+
     }
+
 }
