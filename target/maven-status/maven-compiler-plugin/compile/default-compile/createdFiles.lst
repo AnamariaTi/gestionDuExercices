@@ -10,6 +10,8 @@ dev1\lab02\Ex04.class
 dev1\lab05\Ex01.class
 model\Variables.class
 dev1\lab05\Ex05.class
+dev1\lab06\Mot.class
+dev1\lab06\Moyenne.class
 dev1\lab04\Ex07.class
 model\Ligne.class
 dev1\lab05\TexteEga.class
@@ -21,8 +23,10 @@ dev1\lab03\Ex03.class
 dev1\lab05\Ex02.class
 dev1\lab02\Ex07.class
 dev1\lab05\Ex10.class
+dev1\lab06\Minimum.class
 dev1\lab05\Ex09.class
 dev1\lab05\Lab5.class
+dev1\lab06\Maximum.class
 dev1\lab04\Variante3.class
 dev1\lab03\Ex06.class
 dev1\lab01\Ex01.class
