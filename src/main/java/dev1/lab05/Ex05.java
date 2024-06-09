@@ -8,6 +8,11 @@ import java.util.Scanner;
  * @author Tirdea Ana-Maria
  */
 public class Ex05 {
+    /*
+     asks the user for a word and displays its mirror. 
+     For example, if the user enters “java”, the program displays avaj
+
+    */
      public static void main(String[] args) {
         Scanner key = new Scanner(System.in);
         System.out.println("entre un mots : ");

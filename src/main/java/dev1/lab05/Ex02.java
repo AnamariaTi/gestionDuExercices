@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 /**
  * *exercises tested in main
- *
- * @author Tirdea Ana-Maria
+ * * @author Tirdea Ana-Maria
  */
 public class Ex02 {
     //asks the user for a word and displays whether the all letter is a vowel or not
@@ -43,7 +42,7 @@ public class Ex02 {
             }
         }
 
-        scanner.close();
+      
     }
 
 
