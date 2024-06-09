@@ -37,7 +37,7 @@ public class Ex11 {
         
           boolean estStrictementCroissante = true ; 
           
-          // lire les nombres suivants 
+          // read the following numbers 
           
           while( true ){
               if(nombreActuelle == -1){
@@ -48,7 +48,7 @@ public class Ex11 {
               }
               
               
-              //mettre a jour le nombre précédent 
+              //update previous number 
               
               nombrePrecedent = nombreActuelle; 
               
