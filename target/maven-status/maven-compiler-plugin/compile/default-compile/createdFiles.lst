@@ -12,12 +12,14 @@ model\Variables.class
 dev1\lab05\Ex05.class
 dev1\lab06\Mot.class
 dev1\lab06\Moyenne.class
+dev1\lab06\ChaineUtil.class
 dev1\lab04\Ex07.class
 model\Ligne.class
 dev1\lab05\TexteEga.class
 dev1\lab02\Ex01.class
 dev1\lab02\Ex11.class
 com\mycompany\gestionduexercice\GestionDuExercice.class
+dev1\lab06\Pair.class
 dev1\lab05\Ex08.class
 dev1\lab03\Ex03.class
 dev1\lab05\Ex02.class
@@ -33,9 +35,11 @@ dev1\lab01\Ex01.class
 dev1\lab04\Ex09.class
 dev1\lab04\Ex06.class
 dev1\lab04\Ex11.class
+dev1\lab06\Ligne.class
 dev1\lab01\Ex04.class
 dev1\lab04\Ex05.class
 dev1\lab04\Variante2.class
+dev1\lab06\MathUtil.class
 dev1\lab01\Ex05.class
 dev1\lab05\Ex06.class
 dev1\lab02\Ex03.class
