@@ -9,6 +9,7 @@ import dev1.lab06.ChaineUtil;
 import dev1.lab06.Pair;
 import dev1.lab06.MathUtil;
 import dev1.lab06.Ligne; 
+import dev1.lab07.Calendrier; 
 
 
 
@@ -70,8 +71,28 @@ public class GestionDuExercice {
         
 
         //dev01.lab06.Ligne
-        Ligne.afficherLigne(10);
         Ligne.afficherLigne(20);
+        Ligne.afficherLigne(20);
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        
+        
+        // dev01.lab07.Calendrier 
+        Scanner clavier = new Scanner (System.in); 
+        System.out.println("entrez le numero du mois au format M ou MM : ");
+        int mois = clavier.nextInt(); 
+        
+        System.out.println("entrez l'annee au format AAAA :  ");
+        int annee = clavier.nextInt(); 
+       Calendrier.afficherTitre(mois, annee); 
+       Calendrier.afficherEntete();
+       int nbJours = Calendrier.nombreJours(mois, annee); 
+       int decalage = Calendrier.numeroJour(1, mois, annee); 
+       Calendrier.afficherMois(decalage,nbJours);
+       Calendrier.afficherFinal();
     }
     
 }
