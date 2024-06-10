@@ -10,6 +10,8 @@ import dev1.lab06.Pair;
 import dev1.lab06.MathUtil;
 import dev1.lab06.Ligne; 
 import dev1.lab07.Calendrier; 
+import dev1.lab08.CercleException; 
+import dev1.lab08.Saisie; 
 
 
 
@@ -93,6 +95,17 @@ public class GestionDuExercice {
        int decalage = Calendrier.numeroJour(1, mois, annee); 
        Calendrier.afficherMois(decalage,nbJours);
        Calendrier.afficherFinal();
+       
+       
+       //dev01.lab08.Cercle 
+        System.out.println(CercleException.perimetre(10));
+      //  System.out.println(CercleException.perimetre(-3)); 
+      
+      
+      //dev01.labo08.Saisie
+      int age =Saisie.saisieEntier(" Entrez votre annee de naissance "); 
+      System.out.println("Vous avez " + (2024-age)+" ans");
+             
     }
     
 }

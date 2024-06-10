@@ -2,7 +2,7 @@
 package dev1.lab07;
 
 /**
-  * call method in main
+ * call method in main
  * @author Tirdea Ana-Maria
  */
 public class Calendrier {
