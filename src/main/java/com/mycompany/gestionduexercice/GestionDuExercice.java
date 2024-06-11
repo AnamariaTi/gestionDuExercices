@@ -111,7 +111,17 @@ public class GestionDuExercice {
       //dev01.lab08.Lecture
       int ageLecture = Lecture.lireEntier("entre votre annee de naisaance: "); 
         System.out.println("vous avez dans 10 ans  "+ (2024-ageLecture+10)+ " ans");
-             
+      
+      int entier = Lecture.lireEntier("entre un entier :" ); 
+        System.out.println("Vous avec entre l'entire : "+ entier);
+        
+      double decimale = Lecture.lireDouble("Entrez u nomber déciaml : "); 
+        System.out.println("Vous avez entre le nomber déciaml : " + decimale);
+        
+        
+      int entierAvecBorne = Lecture.lireEntier("Entrez un entier entre 1 et 10", 1, 10); 
+        System.out.println("vous avez entre l'entier " +entierAvecBorne);
+        
     }
     
 }
