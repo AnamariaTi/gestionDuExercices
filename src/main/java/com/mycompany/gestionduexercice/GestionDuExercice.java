@@ -12,6 +12,7 @@ import dev1.lab06.Ligne;
 import dev1.lab07.Calendrier; 
 import dev1.lab08.CercleException; 
 import dev1.lab08.Saisie; 
+import dev1.lab08.Lecture; 
 
 
 
@@ -102,9 +103,14 @@ public class GestionDuExercice {
       //  System.out.println(CercleException.perimetre(-3)); 
       
       
-      //dev01.labo08.Saisie
+      //dev01.lab08.Saisie
       int age =Saisie.saisieEntier(" Entrez votre annee de naissance "); 
       System.out.println("Vous avez " + (2024-age)+" ans");
+      
+      
+      //dev01.lab08.Lecture
+      int ageLecture = Lecture.lireEntier("entre votre annee de naisaance: "); 
+        System.out.println("vous avez dans 10 ans  "+ (2024-ageLecture+10)+ " ans");
              
     }
     

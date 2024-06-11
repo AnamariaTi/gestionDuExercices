@@ -54,10 +54,13 @@ public class Calendrier {
     }
 
     public static void afficherTitre(int mois, int annee) {
+        if(mois > 12 || mois < 0){
+            throw new IllegalArgumentException("Numero du mois impossible "+ mois ); 
+        }else {
         System.out.println("================================");
         System.out.println("           " + nomMois(mois) + " " + annee);
         System.out.println("================================");
-
+        }
     }
     public static void afficherFinal() {
         System.out.println("================================");
@@ -95,18 +98,24 @@ public class Calendrier {
 
     public static int nombreJours(int mois, int annee) {
         int nbJours = 31;
-        if (mois == 4 || mois == 6 || mois == 9 || mois == 11) {
-            nbJours = 30;
-        } else if (mois == 2) {
-            if (estBissextile(annee)) {
-                nbJours = 29;
-            } else {
-                nbJours = 28;
+        if (mois < 0 || mois > 12) {
+            throw new IllegalArgumentException("Le numero du mois c'est incorect "+ mois); 
+        } else {
+
+            if (mois == 4 || mois == 6 || mois == 9 || mois == 11) {
+                nbJours = 30;
+            } else if (mois == 2) {
+                if (estBissextile(annee)) {
+                    nbJours = 29;
+                } else {
+                    nbJours = 28;
+                }
             }
         }
-
         return nbJours;
     }
+
+    
 
     public static int numeroJour(int jour, int mois, int annee) {
         /*
